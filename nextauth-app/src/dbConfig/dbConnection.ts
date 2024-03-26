@@ -11,21 +11,3 @@ export const connect = async () => {
     }
 };
 
-
-// import mysql from 'mysql2/promise';
-
-// export const connect = async () => {
-//     try {
-//         const connection = await mysql.createConnection({
-//             host: '',
-//             user: '',
-//             password: '',
-//             database: ''
-//         });
-//         console.log('Connection to the database has been established successfully.');
-//         return connection;
-//     } catch (error) {
-//         console.error('Unable to connect to the database:', error);
-//         throw error; 
-//     }
-// };
