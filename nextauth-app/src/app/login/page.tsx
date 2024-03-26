@@ -29,6 +29,7 @@ const LoginPage = () => {
             <h1 className="text-2xl font-semibold mb-6 text-center text-black">Login</h1>
             <h1 className="text-lg mb-2 text-center text-black">Welcome back to ECOMMERCE</h1>
             <h1 className="text-sm mb-4 text-center text-black">The next gen business marketplace</h1>
+
                 <form onSubmit={onLogin}>
                     <div className="mb-4">
                         <label htmlFor="email" className="block text-gray-700 font-medium">Email</label>
