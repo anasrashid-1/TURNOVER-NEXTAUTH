@@ -25,7 +25,7 @@ const LoginPage = () => {
         ;
     return (
         <div className="flex justify-center items-center h-screen bg-gray-100">
-            {/* <div className="w-full max-w-md bg-white p-8 border rounded-lg  border-gray-300">
+            <div className="w-full max-w-md bg-white p-8 border rounded-lg  border-gray-300">
             <h1 className="text-2xl font-semibold mb-6 text-center text-black">Login</h1>
             <h1 className="text-sm mb-4 text-center text-black">The next gen business marketplace</h1>
 
@@ -56,11 +56,11 @@ const LoginPage = () => {
                     </div>
                     <button type="submit" className="w-full bg-black text-white py-2 px-4 rounded-md hover:bg-blue-100 transition duration-300">Login</button>
                     <div className="text-black flex gap-2 my-5 justify-center">
-                        <p>Don't have an Account?</p>
+                        <p>Dont have an Account?</p>
                         <p className="text-bold" ><Link href='/signup'>Sign Up</Link></p>
                     </div>
                 </form>
-            </div> */}
+            </div>
         </div>
     )
 }
